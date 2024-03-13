@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial;
+}
+
+html,body{
+   position: relative;
+   max-width: 430px;
+   max-height: 932px;
+   overflow: hidden;
+   margin: auto;
+
+}
+
+html{
+   background-color: #C5DECB;
+}

@@ -1,0 +1,21 @@
+.musicList{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    transition: bottom .5s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+}
+.musicList .song{
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
