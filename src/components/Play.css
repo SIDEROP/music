@@ -23,7 +23,7 @@
 
 .play{
     position: absolute;
-    bottom: 100px;
+    top: calc(100% - 300px);
     background-color: white;
     border-top: 1px solid rgba(0, 0, 0, 0.222);
     left: 0;
