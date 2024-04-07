@@ -14,7 +14,7 @@ const MusicList = ({ val }) => {
     dis(crrentSong(i))
   }
   return (
-    <div style={{ bottom: `${val ? "-40px" : "-100%"}` }} className="musicList">
+    <div style={{ bottom: `${val ? "-60px" : "-100%"}` }} className="musicList">
       {music &&
         music?.map((val, i) => (
           <div key={i} style={{border:`${val?.status?"1px solid green":"1px solid transparent"}`,color:`${val?.status?"green":"black"}`}} className="song" onClick={()=>musicContr(val,i)}>
