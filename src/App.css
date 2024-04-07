@@ -6,4 +6,25 @@
     position: relative;
     z-index: 1;
     background-color: white;
+    position: relative;
+}
+
+
+.main{
+    height: 95vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.footer{
+    height: 5.1vh;
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 227, 227) ;
 }

@@ -154,6 +154,8 @@ const Play = () => {
             <TiArrowLoop size={20} cursor={"pointer"} onClick={()=>SetLoop(pre=>!pre)}/>
           </i>
         </div>
+        
+        
       </div>
     </div>
   );

@@ -7,8 +7,13 @@ const App = () => {
 	
   return (
     <>
+      <div className="main">
       <Header />
       <Play/>
+      </div>
+      <div className="footer">
+        <h3>MUSIC APP 😜</h3>
+      </div>
     </>
   );
 };
